@@ -25,7 +25,6 @@ const projetos = [
 
 const localProjects = document.querySelector('.container-projects');
 
-console.log(localProjects);
 
 projetos.forEach(projeto => {
     const projectCard = document.createElement('div');
