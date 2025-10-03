@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/523b4ebef2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="particulas"></div>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a class="menu-link" href="#home">Home</a></li>
+                <li><a class="menu-link" href="#sobre">Sobre</a></li>
+                <li><a class="menu-link" href="#projetos">Projetos</a></li>
+                <li><a class="menu-link" href="#contato">Contato</a></li>
+            </ul>
+            <div class="social-midia">
+                <a href="https://github.com/Jascran23" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jeancarlossilvadesouza/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                
+            </div>
+            
+        </nav>
+    </header>
+    
+    <main id="home" class="cabecalho">
+        <img src="./img/image-perfil.jpg" alt="Perfil-Jean" class="foto-perfil">
+        <h1>Jean Carlos</h1>
+        <p>Desenvolvedor Front-end</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre Mim</h2>
+        <div>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere distinctio consequatur ipsa recusandae facilis dicta saepe explicabo minus labore nisi, quaerat voluptates, quia laboriosam dolore necessitatibus dolorum consequuntur eius corporis?
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="container-projects">
+           <!-- INSERIR PROJETOS PELO JAVASCRIPT -->
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2 class="contatos-titulo">Contatos</h2>
+        <form class="form-contact" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input type="text" placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <textarea rows="6" class="text-form" placeholder="Digite sua Mensagem" id="mensagem"></textarea>
+            </div>
+            <button type="submit">Enviar via WhatsApp</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
