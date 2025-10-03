@@ -47,6 +47,7 @@ header nav .social-midia{
 
 header nav .social-midia i{
     color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 header nav .social-midia i:hover{
